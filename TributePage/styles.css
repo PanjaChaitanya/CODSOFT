@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700');
+
+/* General Styles */
+body {
+    background: linear-gradient(35deg, #f7f7c1, #cccccc);
+    font-family: 'Domine', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+/* Header Styles */
+header {
+    background: linear-gradient(to right bottom, #4c4e51, #6e7477, #949d9d, #bec7c2, #eff2e8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+/* Main Content */
+#main {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+#tribute-info {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+/* Image Section */
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+img{
+    display:block;
+}
+
+#img-div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* List Styling */
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Link Styling */
+#tribute-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #main {
+        padding: 15px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+}
